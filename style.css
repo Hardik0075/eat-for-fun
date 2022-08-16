@@ -1,0 +1,178 @@
+body{
+  background-color:	#484848;
+  font-family: "Trirong", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+ video.vid{
+   position:fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-attachment: fixed;
+ }
+
+img.q{width:100%;
+ height: 16rem;
+ opacity: 0.5;
+ box-shadow:  5px 5px #e3e0cc, 10px 10px #c5d5c5, 15px 15px #9fa9a3 ;
+}
+img.q:hover{
+  opacity: 3.0;
+}
+img.f{width:100%;
+   height: 16rem;opacity: 0.5;
+    box-shadow:  5px 5px #e3e0cc, 10px 10px #c5d5c5, 15px 15px #9fa9a3 ;
+}
+img.h{width:100%;
+height: 16rem;opacity: 0.5;
+ box-shadow:  5px 5px #e3e0cc, 10px 10px #c5d5c5, 15px 15px #9fa9a3 ;
+}
+img.d{width:100%;
+height: 16rem;opacity: 0.5;
+ box-shadow:  5px 5px #e3e0cc, 10px 10px #c5d5c5, 15px 15px #9fa9a3 ;
+}img.f:hover{
+  opacity: 3.0;
+}
+img.h:hover{
+  opacity: 3.0;
+}
+img.d:hover{
+  opacity: 3.0;
+}
+div.order{
+  left: 40rem;
+  top: 2rem;
+  width:15rem;
+  color: white;
+  background-color: grey;
+ position: relative;
+ animation-name: example;
+ animation-duration: 4s;
+ animation-delay: 2s;
+ animation-iteration-count: 1000;
+animation-direction: alternate-reverse;
+}
+@keyframes example {
+  0%   {background-color:	#808080; left:15rem; top:2rem;}
+  25%  {background-color:#707070; left:35rem; top:2rem;}
+  50%  {background-color:#686868; left:55rem; top:2rem;}
+  75%  {background-color:#585858; left:35rem; top:2rem;}
+  100% {background-color:grey; left:15rem; top:2rem;}
+}
+img.burger{
+  width:60%;
+     height: 40rem;
+     padding: 20px;
+    padding-top: 0px;
+
+}
+div.bur{
+  bottom:20rem;
+  padding-left:  15%;
+
+}
+a.to:hover{
+  background-color:gray ;
+  cursor:progress
+
+}
+ #body{
+     margin:4%;
+     display:flex;
+ }
+div.hg{
+  display: inline-block;
+  text-align: justify;
+
+}
+h3{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+div.gt{
+  padding-left: 5%;
+  padding-top: 3.1%;
+
+}
+ div.col-sm-12{
+   padding-top: 4%;
+ }
+div.df{
+  background-image:url('bg.jpg' );
+  background-size:150%;
+  opacity: 0.4;
+}
+div.ds{
+  height: 80px;
+  width: 100%;
+}
+div.new{
+  top:9rem;
+}
+img.gpd{
+  width:800px;
+  height: 600px;
+}
+div.jk{
+
+padding-top:25rem;
+background-color: black;
+ justify-content: center;
+}
+img.ifd{
+  width: 5%;
+  height:20%;
+  display: inline-block;
+  position: relative;
+  left:35.8rem;
+
+}
+p.last{
+  text-align: center;
+}
+@media only screen and (max-width: 576px) {
+  div.order{
+    left: 40rem;
+    top: 2rem;
+    width:15rem;
+    color: white;
+    background-color: grey;
+   position: relative;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-delay: 2s;
+   animation-iteration-count: 1000;
+  animation-direction: alternate-reverse;
+  }
+  @keyframes example {
+    0%   {background-color:	#808080; left:5rem; top:2rem;}
+    25%  {background-color:#707070; left:10rem; top:2rem;}
+    50%  {background-color:#686868; left:12rem; top:2rem;}
+    75%  {background-color:#585858; left:10rem; top:2rem;}
+    100% {background-color:grey; left:5rem; top:2rem;}
+  }
+  video.vid{
+    width: 40%;
+    position:fixed;
+   bottom: 0rem;
+   right: 0rem;
+   background-attachment: fixed;
+  }
+  img.ifd{
+   float: none;
+   left:12.3rem;
+
+  }
+  p.last{
+    font-size: 60%;
+  }
+
+ div.mid{
+
+      left:50rem;
+  }
+}
+h5{
+  text-shadow: 2px 2px 4px #000000;
+}
